@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+
+/* Isso aqui é a tela que o usário ver */
+/* quanto menos código tiver nesse arquivo , melhor fica*/
+/* os códigos ficam nos outros arquivos(Todoitem.jsx,Home.jsx e etc....)*/
+
+
 import './App.css';
+
+
+
+import Home from "./pages/Home"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Home />
   );
 }
 
